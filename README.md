@@ -48,7 +48,7 @@
 </div>
 
 <details>
-<summary>&nbsp;<b>the rest of the toolbox</b>&nbsp;—&nbsp;למה זה לא עובד?</summary>
+<summary>&nbsp;<b>the rest of the toolbox</b></summary>
 <br/>
 
 <p>
