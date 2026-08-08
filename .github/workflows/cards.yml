@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=${{ env.ACCENT }}&icon_color=${{ env.ACCENT }}&text_color=${{ env.DARK_TEXT }}
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=${{ env.ACCENT }}&icon_color=${{ env.ACCENT }}&text_color=${{ env.DARK_TEXT }}
           path: profile/stats-dark.svg
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
@@ -35,7 +35,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=${{ env.ACCENT }}&icon_color=${{ env.ACCENT }}&text_color=${{ env.LIGHT_TEXT }}
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=${{ env.ACCENT }}&icon_color=${{ env.ACCENT }}&text_color=${{ env.LIGHT_TEXT }}
           path: profile/stats-light.svg
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
