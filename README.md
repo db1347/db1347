@@ -4,10 +4,13 @@
 
 <br/>
 
+<sub>Computer Engineering student · embedded systems and digital hardware</sub>
+<br/>
 <sub>Full-stack dev · Hebrew-first products · obsessed with accessibility and applied AI</sub>
 
 <br/><br/>
 
+<img src="https://img.shields.io/badge/FPGA-7C3AED?style=flat-square&logo=amd&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/Web-7C3AED?style=flat-square&logo=vercel&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/macOS-7C3AED?style=flat-square&logo=apple&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/iOS-7C3AED?style=flat-square&logo=appstore&logoColor=white" />&nbsp;
@@ -20,6 +23,15 @@
 <br/>
 
 <div align="center">
+
+**Hardware**&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/SystemVerilog-6B4FBB?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
+<img src="https://img.shields.io/badge/FreeRTOS-3FB34F?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" />
+<img src="https://img.shields.io/badge/cocotb-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Verilator-4B5563?style=flat-square&logoColor=white" />
 
 **Daily**&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -94,8 +106,9 @@
 | [`DanielReader-Windows`](https://github.com/db1347/DanielReader-Windows) | OCR screen reader for Windows — reads any on-screen text aloud with live word highlighting. Hebrew + English, C#/.NET + WPF. |
 | `DanielReader-Mac` 🔒 | The macOS original: menu-bar app, on-screen OCR, TTS with real-time highlighting. Swift. |
 | `TendersApp` 🔒 | Hebrew tender search that actually understands intent — scraping, embeddings and semantic matching over public tenders. Next.js + pgvector. |
-| `NavGuard IL` 🔒 | GPS anti-spoofing: ESP32-S3 firmware with EKF sensor fusion and a Kotlin/Compose companion over BLE. |
-| `YeadutApp` 🔒 | Hebrew-first Jewish lifestyle app — zmanim, Hebrew calendar, Sefirat HaOmer, kosher Shabbat alarms. Flutter. |
+| [`NavGuard IL`](https://github.com/db1347/navguard-firmware) | GPS anti-spoofing: ESP32-S3 firmware with EKF sensor fusion and a Kotlin/Compose companion over BLE. |
+| FPGA on Basys 3 | *In progress.* SystemVerilog on an Artix-7, verified with cocotb before it touches the board. |
+| [`YeadutApp`](https://github.com/db1347/YeadutApp) | Hebrew-first Jewish lifestyle app — zmanim, Hebrew calendar, Sefirat HaOmer, kosher Shabbat alarms. Flutter. |
 | [`kotar2pdf`](https://github.com/db1347/kotar2pdf) | Turns Kotar's online book viewer into a real PDF. Python. |
 
 <sub>🔒 = private repo</sub>
